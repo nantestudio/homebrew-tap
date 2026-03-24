@@ -3,7 +3,7 @@ class Nst < Formula
   homepage "https://github.com/nantestudio/nante-studio-cli"
   url "https://github.com/nantestudio/nante-studio-cli.git",
     tag: "v0.3.0",
-    revision: "f743697"
+    revision: "f7436977fe1ca729db187eb7009967c108a36a6a"
   license :cannot_represent
   head "https://github.com/nantestudio/nante-studio-cli.git", branch: "main"
 
