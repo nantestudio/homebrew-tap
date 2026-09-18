@@ -1,13 +1,13 @@
 class Nst < Formula
   desc "Nante Studio CLI - unified secrets, links, ads, and app store management"
   homepage "https://github.com/nantestudio/lamancha"
-  url "https://github.com/nantestudio/homebrew-tap/releases/download/nst-v2.32.0/nst-v2.32.0-macos-universal.tar.gz", using: :nounzip
-  sha256 "69d31f0618f09009c7e69f5f1facc28d43f4df3f0acaf10ced30efcfb0894929"
-  version "2.32.0"
+  url "https://github.com/nantestudio/homebrew-tap/releases/download/nst-v2.33.0/nst-v2.33.0-macos-universal.tar.gz", using: :nounzip
+  sha256 "0c9ae355c6fb91f25b1228ae0616696d92324678d74bc6a42cbdeeca94a6dd83"
+  version "2.33.0"
   license "MIT"
 
   def install
-    system "tar", "xzf", "nst-v2.32.0-macos-universal.tar.gz"
+    system "tar", "xzf", "nst-v2.33.0-macos-universal.tar.gz"
     bin.install "nst"
   end
 
